@@ -1,0 +1,23 @@
+package io.github.adamc295.Launcher;
+
+import io.github.adamc295.Engine.EngineMain;
+
+public class Main implements Runnable{
+	
+	public Main() {
+		
+	}
+	
+	public void start() {
+		Thread t = new Thread(this).start();
+	}
+	
+	public static void main(String[] args) {
+		Main game = new Main();
+		game.start();
+	}
+
+	public void run() {
+		
+	}
+}

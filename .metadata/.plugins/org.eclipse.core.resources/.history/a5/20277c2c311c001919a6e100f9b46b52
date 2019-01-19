@@ -1,0 +1,7 @@
+package io.github.adamc295.Engine;
+
+public class EngineMain implements Runnable {
+	public static void e_main() {
+		
+	}
+}

@@ -1,0 +1,19 @@
+package io.github.adamc295.Launcher;
+
+import io.github.adamc295.Engine.EngineMain;
+
+public class Main implements Runnable{
+	
+	public Main() {
+		
+	}
+	
+	public static void main(String[] args) {
+		Main game = new Main();
+		System.out.println("Hello, World!"); // Eclipse for fucks sake fuck off.
+	}
+
+	public void run() {
+		
+	}
+}

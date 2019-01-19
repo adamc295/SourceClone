@@ -1,7 +1,10 @@
 package io.github.adamc295.Launcher;
 
+import io.github.adamc295.Engine.EngineMain;
+
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello, World!"); // Eclipse for fucks sake fuck off.
+		EngineMain.e_main();
+		System.exit(0);
 	}
 }

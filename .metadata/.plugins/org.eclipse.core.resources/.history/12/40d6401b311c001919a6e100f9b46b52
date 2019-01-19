@@ -1,0 +1,34 @@
+package io.github.adamc295.Launcher;
+
+import org.lwjgl.opengl.Display;
+
+import io.github.adamc295.Engine.EngineMain;
+
+public class Main implements Runnable{
+	
+	public Main() {
+		
+	}
+	
+	public void start() {
+		new Thread(this).start();
+	}
+	
+	public static void main(String[] args) {
+		Main game = new Main();
+		game.start();
+	}
+
+	public void run() {
+		while(!Display.isCloseRequested()) {
+			// Do rendering through the engine
+			// Do game logic through the engine
+			// Update
+			try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}
