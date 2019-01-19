@@ -21,7 +21,6 @@ public class EngineMain implements Runnable {
 			Window.UpdateWindow(60);
 		}
 		Window.DestroyWindow();
-		System.exit(0);
 	}
 	
 	public EngineMain() {

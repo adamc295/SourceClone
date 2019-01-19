@@ -18,10 +18,8 @@ public class EngineMain implements Runnable {
 		while(!Display.isCloseRequested()) {
 			// Do rendering through the engine
 			// Do game logic through the engine
-			Window.UpdateWindow(60);
+			// Update
 		}
-		Window.DestroyWindow();
-		System.exit(0);
 	}
 	
 	public EngineMain() {

@@ -14,14 +14,11 @@ public class EngineMain implements Runnable {
 	}
 	
 	public void run() {
-		Window.CreateWindow(800, 600, "Source Engine Clone");
 		while(!Display.isCloseRequested()) {
 			// Do rendering through the engine
 			// Do game logic through the engine
-			Window.UpdateWindow(60);
+			// Update
 		}
-		Window.DestroyWindow();
-		System.exit(0);
 	}
 	
 	public EngineMain() {
